@@ -1,7 +1,11 @@
-import Router from "./router";
+import UserRegistration from "./pages/auth/UserRegistration";
+// import Router from "./router";
 
 function App() {
-  return <Router />;
+  return (
+  // <Router />
+<UserRegistration/>
+);
 }
 
 export default App;
