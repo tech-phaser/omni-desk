@@ -8,13 +8,13 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../components/ui/form";
+} from "../../../ui/form";
 import {
   registerFormDefaultValue,
   registerFormField,
   registerFormSchema,
   TRegisterFormSchema,
-} from "../../model/register";
+} from "../../../../model/register";
 
 import axios from "axios";
 import { Slide, toast, ToastContainer } from "react-toastify";
